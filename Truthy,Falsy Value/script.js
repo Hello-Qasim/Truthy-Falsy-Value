@@ -4,9 +4,9 @@
 
 // The conversion to boolean is always type coercion that javascript always does this behind the scene:
 
-// 5 FALSY  values:
+//  FALSY  values are:
 
-// 0 , undefined , NaN , '' , undefined;
+// 0 , undefined , NaN , '' ;
 
 console.log(Boolean(0));
 // => Result = false
