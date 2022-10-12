@@ -17,7 +17,7 @@ console.log(Boolean("This is true"));
 console.log(Boolean({}));
 // => Result = True
 
-// The result of "Boolean(0)" is false as this is a falsy IDBCursorWithValue,same goes for an empty string ('')
+// The result of "Boolean(0)" is false as this is a falsy value,same goes for an empty string ('')
 
 // The result of last two is "true" coz the first value is not an empty string and any string which is not an empty is always truthy and same goes for an object which is the last value.
 
